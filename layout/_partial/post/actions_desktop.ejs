@@ -11,6 +11,7 @@
       </ul>
     </span>
     <br/>
+    <% if (theme.post.show_actions) { %>
     <span id="actions">
       <ul>
         <% if (page.prev) { %>
@@ -31,6 +32,7 @@
     <div id="share" style="display: none">
       <%- partial('_partial/post/share', { icon_class_name: '' }) %>
     </div>
+    <% } %>
     <div id="toc">
       <%- toc(page.content) %>
     </div>
