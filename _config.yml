@@ -144,13 +144,13 @@ disqus:
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
-  enabled: false
-  id: UA-86660611-1
+  enabled: true
+  id: G-F224GZSYXX
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
-  enabled: false
-  id: 2e6da3c375c8a87f5b664cea6d4cb29c
+  enabled: true
+  id: 84f580c74004d8faab683a68cc2cdadb
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
