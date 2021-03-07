@@ -5,7 +5,7 @@
     <% var startYear = (theme.copyright && theme.copyright.start_year) ? theme.copyright.start_year : new Date().getFullYear() %>
     <%= startYear >= endYear ? endYear : startYear + "-" + endYear %>
     <a href="mailto: yjli815@outlook.com">yjli</a>
-    <% if (theme.rss === '' && config.feed && config.feed.path) { %>
+    <% if (!theme.rss && config.feed && config.feed.path) { %>
       <% theme.rss = config.feed.path %>
     <% } %>
     <% if (theme.rss) { %>
