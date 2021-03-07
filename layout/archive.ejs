@@ -17,4 +17,11 @@
     <% }); %>
   </ul>
   <%- partial('_partial/pagination') %>
+
+  <% if (theme.tags_overview && site.tags.length) { %>
+    <span class="h2"><%= __('index.topics') %></span>
+    <span class="widget tagcloud">
+      <%- tagcloud(theme.tags_overview) %>
+    </span>
+    <% } %>
 </div>
